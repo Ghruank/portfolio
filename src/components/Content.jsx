@@ -64,7 +64,7 @@ const Content=()=>{
                 <div className="header">Contact</div>
                 <div className="maincon">
                     <div className="c1">
-                    <p className="con">Ghruank Kothare<br/>VJTI, Mumbai<br/>Email: <a  className="link" href="gpkothare_b23@it.vjti.ac.in">gpkothare_b23@it.vjti.ac.in</a><br/></p>
+                    <p className="con">Ghruank Kothare<br/>VJTI, Mumbai<br/>Email: <a  className="link" href="mailto:gpkothare_b23@it.vjti.ac.in">gpkothare_b23@it.vjti.ac.in</a><br/></p>
                     </div>
                     <div className="c2">
                         <a href="https://www.linkedin.com/in/ghruank/" target="_blank"><img src={'/linkedin.png'} alt="" /></a>
