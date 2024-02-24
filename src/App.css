@@ -36,3 +36,189 @@
     transform: rotate(360deg);
   }
 }
+
+/* css starts here*/
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.home{
+  font-family: "Kode Mono", monospace;
+  color: whitesmoke;
+  /* position: fixed;
+  overflow: hidden; */
+
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+/*home*/
+.anchor{
+  text-decoration: none;
+  color: whitesmoke;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap:24px;
+  cursor:pointer;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content{
+  margin-top: 120px;
+}
+
+.header{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.subheader{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  background-image: url(./bgphoto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.typing-cursor {
+  display: inline-block;
+  overflow: hidden;
+  /* border-right: .15em solid orange; Adjust color and size as needed */
+  white-space: nowrap;
+  animation: typing 2s steps(20, end) forwards;
+}
+
+p{
+  margin: 0;
+}
+
+.content{
+  font-family: "Ubuntu" , sans-serif;
+  color: whitesmoke;
+}
+
+.block{
+  margin: 20px;
+  padding: 10px;
+
+}
+
+img{
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+
+}
+.cpp{
+  border: 0.5px solid black;
+  margin: 10px;
+  padding: 20px;
+  flex:1;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #4B0082;
+  background-color: rgba(255, 255, 255, 0.1); /* Adjust opacity as needed */
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  cursor:pointer;
+}
+
+.prjcards{
+  display: flex;
+  flex-direction: column;
+  .cpp:hover{
+    transform: scale(1.02);
+  }
+}
+
+.cpp:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.link{
+  color: #61dafb;
+}
+.maincon{
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.content{
+  padding-top: 20px;
+  overflow:hidden;
+
+}
+
+.home{
+  background-color: black;
+}
+
+#Contact{
+  background-color: black;
+  margin: 0;
+}
+
+.maincon{
+  display: flex;
+  justify-content: space-between;
+  img{
+  height: 40px;
+  margin: 10px;
+  }
+  .c2{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.content{
+  .header{
+    margin: 20px;
+  }
+}
+
+#about, #skills, #projects, #Contact{
+  margin-bottom: 0;
+  /* padding-top: 80px; */
+}
+
+#projects{
+  margin-bottom: 50px;
+}
+
+.block{
+  padding-top:-5px;
+}
+
+
