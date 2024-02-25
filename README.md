@@ -1,1 +1,1 @@
-Website preview-> www.ghkportfolio.vercel.app
+Website preview-> ghkportfolio.vercel.app
