@@ -192,6 +192,7 @@ img{
 .maincon{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   img{
   height: 40px;
   margin: 10px;
@@ -219,6 +220,14 @@ img{
 
 .block{
   padding-top:-5px;
+}
+
+.maincon{
+  .image{
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 30px;
+  }
 }
 
 

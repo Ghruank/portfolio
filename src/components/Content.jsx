@@ -7,7 +7,8 @@ const Content=()=>{
             <div className="block" id="about">
                 <div className="header">About Me</div>
                 <div className="maincon">
-                <p>Ghruank Kothare<br/><br/>Pursuing BTech in Information Technology<br/>at Veermata Jijabai Technological Institute, Mumbai<br/><br/>Software Developer, Web designer and a fond DSA enjoyer</p>
+                <p>Ghruank Kothare<br/><br/>Pursuing BTech in Information Technology<br/>at Veermata Jijabai Technological Institute, Mumbai<br/><br/>Web and Software Developer and a fond DSA enjoyer<br/>Machine Learning enthusiast</p>
+                <img className="image" src={'/foto.jpg'} alt="" />
                 </div>
             </div>
             <div id="skillsd">
